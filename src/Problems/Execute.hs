@@ -12,6 +12,7 @@ import qualified Problems.Problem6 as Problem6
 import qualified Problems.Problem7 as Problem7
 import qualified Problems.Problem8 as Problem8
 import qualified Problems.Problem9 as Problem9
+import qualified Problems.Problem10 as Problem10
 
 data Problem 
   = Problem1
@@ -23,6 +24,7 @@ data Problem
   | Problem7
   | Problem8
   | Problem9
+  | Problem10
   deriving (Eq, Show)
 
 -- | Execute one of my solved problems.  For now, assume a solution is an
@@ -37,3 +39,4 @@ execute Problem6 = Problem6.getSolution
 execute Problem7 = Problem7.getSolution
 execute Problem8 = Problem8.getSolution
 execute Problem9 = Problem9.getSolution
+execute Problem10 = Problem10.getSolution

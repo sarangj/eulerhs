@@ -16,6 +16,7 @@ main = defaultMain $ testGroup "Test All Problems"
   , testProblem Problem7
   , testProblem Problem8
   , testProblem Problem9
+  , testProblem Problem10
   ]
 
 testProblem :: Problem -> TestTree
@@ -44,3 +45,4 @@ getExpected Problem6 = 25164150
 getExpected Problem7 = 104743
 getExpected Problem8 = 23514624000
 getExpected Problem9 = 31875000
+getExpected Problem10 = 142913828922
