@@ -1,4 +1,4 @@
-module Problem6 where
+module Problems.Problem6 where
 
 getSolution :: Int
 getSolution = getSolutionImpl 100

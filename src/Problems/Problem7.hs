@@ -1,4 +1,4 @@
-module Problem7 where
+module Problems.Problem7 where
 
 import qualified Lib.Math as Math
 

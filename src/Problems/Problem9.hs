@@ -1,4 +1,4 @@
-module Problem9 where
+module Problems.Problem9 where
 
 getSolution :: Int
 getSolution = a1 * b1 * (1000 - a1 - b1)

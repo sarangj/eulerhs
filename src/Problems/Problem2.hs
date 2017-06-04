@@ -1,4 +1,4 @@
-module Problem2 where
+module Problems.Problem2 where
 
 import Data.Maybe
 

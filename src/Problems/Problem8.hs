@@ -1,4 +1,4 @@
-module Problem8 where
+module Problems.Problem8 where
 
 import Data.Function
 import Data.List

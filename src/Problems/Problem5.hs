@@ -1,4 +1,4 @@
-module Problem5 where
+module Problems.Problem5 where
 
 import qualified Data.HashMap.Strict as HashMap
 import Data.Maybe
