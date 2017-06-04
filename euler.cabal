@@ -51,4 +51,4 @@ test-suite euler-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/euler
+  location: https://github.com/sarangj/eulerhs
