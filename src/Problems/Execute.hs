@@ -1,7 +1,6 @@
-
 module Problems.Execute 
   ( execute
-  , Problem
+  , Problem(..)
   ) where
 
 import qualified Problems.Problem1 as Problem1
@@ -24,7 +23,7 @@ data Problem
   | Problem7
   | Problem8
   | Problem9
-  deriving (Eq)
+  deriving (Eq, Show)
 
 -- | Execute one of my solved problems.  For now, assume a solution is an
 -- Int which may need to be changed in the future
